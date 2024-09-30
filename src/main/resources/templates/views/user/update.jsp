@@ -44,7 +44,7 @@
                 <div class="item__title">웹사이트</div>
                 <div class="item__input">
                     <input type="text" name="website" placeholder="웹 사이트"
-                           value="https://github.com/codingspecialist" />
+                           value="https://github.com" />
                 </div>
             </div>
             <div class="content-item__06">

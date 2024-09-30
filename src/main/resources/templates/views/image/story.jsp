@@ -20,33 +20,36 @@
                 </div>
 
                 <div class="sl__item__contents">
-                    <div class="sl__item__contents__icon">
+                    <div class="sl__item__contents__icon" style="margin-top: 10px; margin-left: 5px;">
 
-                        <button>
+                        <button style="margin-top: 7px;">
                             <i class="fas fa-heart active" id="storyLikeIcon-1" onclick="toggleLike()"></i>
                         </button>
+
+                        <span class="like"><b id="storyLikeCount-1">3 </b>likes</span>
                     </div>
-
-                    <span class="like"><b id="storyLikeCount-1">3 </b>likes</span>
-
+                    <br>
                     <div class="sl__item__contents__content">
+
                         <p>등산하는 것이 너무 재밌네요</p>
                     </div>
 
+                    <!-- 댓글 리스트 -->
                     <div id="storyCommentList-1">
 
-                        <div class="sl__item__contents__comment" id="storyCommentItem-1">
-                        <p>
-                            <b>Lovely :</b> 부럽습니다.
-                        </p>
+                        <!-- 댓글 반복 form -->
+                        <div class="sl__item__contents__comment" id="storyCommentItem-1" style="margin-top: 23px;">
+                            <p>
+                                <b>Lovely :</b> 부럽습니다.
+                            </p>
 
-                        <button>
-                            <i class="fas fa-times"></i>
-                        </button>
+                            <button style="margin-top: 5px;">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
 
                     </div>
-
-                </div>
+                <br>
 
                 <div class="sl__item__input">
                     <input type="text" placeholder="댓글 달기..." id="storyCommentInput-1" />
